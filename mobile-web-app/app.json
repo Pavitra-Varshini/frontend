@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Notes App",
+    "slug": "notes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.notesapp.mobile"
+    },
+    "android": {
+      "package": "com.notesapp.mobile"
+    },
+    "web": {
+      "bundler": "webpack"
+    },
+    "extra": {
+      "apiBaseUrl": "https://wp4l0jdfga.execute-api.us-east-1.amazonaws.com/prod"
+    }
+  }
+}
