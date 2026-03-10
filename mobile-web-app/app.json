@@ -1,13 +1,12 @@
 {
   "expo": {
     "name": "Notes App",
-    "slug": "notes-app",
+    "slug": "notesapp",
     "version": "1.0.0",
+    "owner": "xpense-app-10",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.notesapp.mobile"
@@ -19,7 +18,10 @@
       "bundler": "webpack"
     },
     "extra": {
-      "apiBaseUrl": "https://wp4l0jdfga.execute-api.us-east-1.amazonaws.com/prod"
+      "apiBaseUrl": "https://wp4l0jdfga.execute-api.us-east-1.amazonaws.com/prod",
+      "eas": {
+        "projectId": "24978c2f-3d38-4103-a3be-31d56bf320fe"
+      }
     }
   }
 }
